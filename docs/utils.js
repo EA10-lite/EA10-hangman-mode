@@ -6,6 +6,6 @@ const club = [
 ];
 const categoryStr = ["country","club"];
 const category = [country,club];
-const categoryIndex = Math.floor(Math.random() * categoryStr.length);
+let categoryIndex = Math.floor(Math.random() * categoryStr.length);
 let wrongChoice = -1;
 const allHangManImages = ["headpaper.png","bodypaper.png","left-armpaper.png","right-armpaper.png","left-legpaper.png","right-legpaper","you-losepaper.png","you-winpaper.png"]
